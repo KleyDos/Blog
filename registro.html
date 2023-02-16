@@ -5,44 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h2>Registro</h2>
-    <p>
-      <label for="username">Nombre</label>
-      <br />
-      <input
-        type="username"
-        name="usuario"
-        placeholder="Ej: Kleyson Flores"
-        id="user"
-      />
-    </p>
-    <p>
-      <label for="username">ID</label>
-      <br />
-      <input type="username" name="ID" placeholder="0-0000-0000" id="cedula" />
-    </p>
-    <p>
-      <label for="username">Contraseña</label>
-      <br />
-      <input
-        type="username"
-        name="Contraseña"
-        placeholder="Ej:Contraseña1$."
-        id="password1"
-      />
-    </p>
-    <p>
-      <label for="username">Confirmacion de Contraseña</label>
-      <br />
-      <input
-        type="username"
-        name="Contraseña"
-        placeholder="Ej:Contraseña1$."
-        id="password2"
-      />
-    </p>
-		<input type="button" value="Enviar" onclick="">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Registro</a>
+
+      <div class="collapse navbar-collapse" id=" nacbarNavDropdow">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home
+            </a>
+          </li>
+        </ul>
+				</div>
+      </div>
+    </nav>
+
+    <div class="container">
+<p>
+<div class="input-group mb-3" >
+	<span class="input-group-text" id="inputGroup-sizing-default" >Nombre</span>
+<input type="text" name="Nombre" placeholder="Nombre" id="Nombre" />
+</div>
+</p>
+<p>
+	<div class="input-group mb-3">
+	<span class="input-group-text" id="inputGroup-sizing-default" >Usuario</span>
+<input type="text" name="usuario" placeholder="Usuario" id="usuario" />
+</div>
+</p>
+<p>
+<div class="input-group mb-3">
+	<span class="input-group-text" id="inputGroup-sizing-default" >ID</span>
+<input type="number" name="id" placeholder="0-0000-0000" id="Cedula" />
+</div>
+</p>
+<p>
+<div class="input-group mb-3" >
+	<span class="input-group-text" id="inputGroup-sizing-default" >Contraseña</span>
+<input type="text" name="Contraseña" placeholder="contraseña" id="contrasena" />
+</div>
+</p>
+
+<button type="button" value="Enviar" onclick="" class="btn btn-primary">Enviar</button>
+    </div>
+
+    <div class="container">
+
+			<picture>
+  <source srcset="./Imagenes/viajero.jpg" type="image/svg+xml">
+  <img src="..." class="img-fluid img-thumbnail" alt="...">
+</picture>
+      <!-- <img
+        src="./Imagenes/viajero.jpg"
+        class="rounded float-end"
+        alt="..."
+      /> -->
+    </div>
   </body>
 </html>
